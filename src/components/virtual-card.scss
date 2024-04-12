@@ -1,0 +1,165 @@
+.virtual-card {
+  margin-top: 64px;
+  background-color: #f0f0f9;
+  height: 635px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 757px;
+    overflow-x: hidden;
+  }
+
+  @media (min-width: 1280px) {
+    height: 993px;
+  }
+
+  &__img {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__form {
+    position: absolute;
+    right: -78.82px;
+    top: 55px;
+    width: 386.94px;
+    height: 347.06px;
+    z-index: 1;
+
+    @media (min-width: 768px) {
+      right: 7px;
+      top: 50px;
+      width: 622px;
+      height: 558px;
+    }
+
+    @media (min-width: 1280px) {
+      right: 71px;
+      z-index: 1;
+    }
+  }
+
+  &__card {
+    position: absolute;
+    top: 277.74px;
+    left: 0px;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+      top: 426.13px;
+      left: 481px;
+      width: 425.56px;
+      height: 290.87px;
+      z-index: 1;
+    }
+
+    @media (min-width: 1280px) {
+      top: 575px;
+      left: 743px;
+      width: 594px;
+      height: 406px;
+    }
+  }
+
+  &__text {
+    font-family: "Montserrat Alternates";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 24px;
+    position: absolute;
+    top: 474px;
+    color: #000;
+    text-align: center;
+    line-height: normal;
+    width: 306px;
+    height: 81px;
+
+    @media (min-width: 768px) {
+      top: 203px;
+      left: 143px;
+      font-size: 40px;
+      line-height: 49px;
+      width: 484px;
+      height: 147px;
+      z-index: 2;
+    }
+
+    @media (min-width: 1280px) {
+      left: 262px;
+      top: 314px;
+      font-size: 56px;
+      line-height: 68px;
+      width: 686px;
+      height: 204px;
+    }
+  }
+
+  &__triangle2 {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+
+    @media (min-width: 1280px) {
+      right: 131px;
+    }
+  }
+
+  &__triangle3 {
+    position: absolute;
+    top: 380px;
+    left: 308px;
+    z-index: 0;
+
+    @media (min-width: 768px) {
+      top: 542px;
+      left: 46px;
+    }
+
+    @media (min-width: 1280px) {
+      top: 730px;
+      left: 39px;
+    }
+  }
+
+  &__triangle4 {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 0;
+    }
+  }
+
+  &__triangle5 {
+    position: absolute;
+    top: 40px;
+    left: -27px;
+    width: 56.56px;
+    height: 57px;
+
+    @media (min-width: 768px) {
+      top: 83px;
+      left: 521px;
+    }
+
+    @media (min-width: 1280px) {
+      top: 108px;
+      left: 768px;
+    }
+  }
+}

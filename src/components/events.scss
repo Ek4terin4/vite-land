@@ -1,0 +1,88 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+
+  @media (min-width: 1280px) {
+    margin-top: 80px;
+  }
+
+  &__year {
+    font-family: "Montserrat Alternates";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    line-height: normal;
+
+    @media (min-width: 768px) {
+      font-size: 120px;
+      width: 746px;
+      height: 146px;
+      line-height: 146px;
+    }
+  }
+
+  &__text {
+    font-family: "Montserrat Alternates";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    line-height: normal;
+    width: 286px;
+    margin-top: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+      margin-top: 24px;
+      width: auto;
+      line-height: 49px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 1112px;
+      height: 136px;
+      font-size: 56px;
+      line-height: 68px;
+    }
+  }
+
+  &__logo {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 29px 0;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      margin-top: 40px;
+    }
+
+    @media (min-width: 1280px) {
+      align-items: flex-start;
+      align-content: flex-start;
+      gap: 16px;
+      gap: 38px 24px;
+      width: 100%;
+      padding: 0 120px 0;
+    }
+  }
+
+  &__logo {
+    img {
+      width: 27%;
+
+      @media (min-width: 768px) {
+        width: 15%;
+      }
+
+      @media (min-width: 1280px) {
+        width: 18%;
+      }
+    }
+  }
+}

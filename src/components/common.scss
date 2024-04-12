@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Gertruda Victoriana";
+  src: local("Gertruda Victoriana"), url(./fonts/GertrudaVictoriana.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: local("Montserrat Alternates"),
+    url(./fonts/MontserratAlternates-Medium.ttf);
+}

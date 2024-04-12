@@ -1,0 +1,120 @@
+.header {
+  background-image: url("./assets/home.svg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 104px 28px 73px;
+
+  @media (min-width: 768px) {
+    background-image: url("./assets/home_laptop.svg");
+    padding: 140px 88px 120px;
+    overflow-x: hidden;
+  }
+
+  @media (min-width: 1280px) {
+    background-image: url("./assets/home_computer.svg");
+    padding: 189px 182px 182px;
+  }
+
+  &__logo {
+    justify-content: center;
+    width: 117.273px;
+    height: 30px;
+    flex-shrink: 0;
+
+    @media (min-width: 1280px) {
+      width: 301px;
+      height: 77px;
+    }
+  }
+
+  &__new-year {
+    font-family: "Gertruda Victoriana";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #fff;
+    line-height: normal;
+    max-height: 54px;
+    max-width: 271px;
+
+    @media (min-width: 768px) {
+      font-size: 64px;
+      margin-top: 16px;
+      max-width: 361px;
+      max-height: 72px;
+      line-height: 72px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: 0;
+      max-width: 733px;
+      max-height: 147px;
+      font-size: 130px;
+      line-height: 147px;
+    }
+  }
+
+  &__text-box {
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    flex-shrink: 0;
+    margin-top: 517px;
+    padding: 32px 16px 56px;
+
+    @media (min-width: 768px) {
+      margin-top: 664px;
+      padding: 56px 40px 80px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: 894px;
+      padding: 64px 80px 96px;
+    }
+  }
+
+  &__appeal {
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000125;
+    text-align: center;
+    line-height: normal;
+
+    @media (min-width: 768px) {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+
+  &__text {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000125;
+    line-height: normal;
+    margin-top: 16px;
+
+    p:not(:first-child) {
+      margin-top: 27px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 27px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: 40px;
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
+}
